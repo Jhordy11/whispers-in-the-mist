@@ -1,0 +1,57 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas generadas por Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+Assets/
+!Assets/*.cs
+!Assets/Scenes/
+!Assets/Signals/
+!Assets/EfectosPlayable/
+!Assets/Cinematicas/
+# Archivos de caché y configuración local
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Archivos de depuración
+*.pdb
+*.mdb
+*.opendb
+
+# Archivos de compilación
+*.exe
+*.apk
+*.unitypackage
+
+# Archivos de metadatos innecesarios
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Archivos creados por Visual Studio y Rider
+.vscode/
+.idea/
+*.vcxproj
+*.vcxproj.filters
+
+# Archivos de configuración personal
+*.swp
+*.tmp
+*.temp
+*.bak
+*.backup
