@@ -11,12 +11,13 @@ Builds/
 Logs/
 MemoryCaptures/
 UserSettings/
-Assets/
+Assets/*
 !Assets/*.cs
 !Assets/Scenes/
 !Assets/Signals/
 !Assets/EfectosPlayable/
 !Assets/Cinematicas/
+
 # Archivos de caché y configuración local
 *.csproj
 *.unityproj
