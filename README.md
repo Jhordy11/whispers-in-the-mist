@@ -14,7 +14,7 @@ git clone https://github.com/tu-usuario/whispers-in-the-mist.git
 
 ## 2. Instalación de Unity
 
-Asegúrate de tener instalada una versión de Unity compatible con el proyecto. La versión recomendada es Unity 2020.3 o superior.
+Asegúrate de tener instalada una versión de Unity compatible con el proyecto. La versión recomendada es Unity 2022.3.46f1 o superior.
 
 ---
 
