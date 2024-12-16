@@ -247,7 +247,7 @@ MonoBehaviour:
   - {r: 1, g: 0, b: 0, a: 0}
   - {r: 0.9339623, g: 0.9036131, b: 0.074893214, a: 0}
   - {r: 0.042808846, g: 0.6381797, b: 0.6981132, a: 0}
-  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0.75307083, a: 0}
   - {r: 0.3414732, g: 0.033018887, b: 1, a: 0}
   - {r: 0.031938408, g: 1, b: 0.0047169924, a: 0}
   plataformasPerro:
@@ -66475,7 +66475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.19999862
+      value: 0.2000122
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -66483,7 +66483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.000017
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -69995,7 +69995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871335549}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0030978506, y: 0.9780025, z: -0.014561594, w: 0.20806141}
+  m_LocalRotation: {x: 0.003097853, y: 0.9780025, z: -0.014561596, w: 0.20806153}
   m_LocalPosition: {x: 263, y: 3, z: 136}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -72354,7 +72354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &2000596150
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -73147,7 +73147,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 10
+      value: 8
       mode: 0
       spread: 0
       speed:
@@ -73266,7 +73266,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1000
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -77161,7 +77161,7 @@ Transform:
   m_GameObject: {fileID: 2000596149}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.1309204, y: 11.3574705, z: 42.115845}
+  m_LocalPosition: {x: -3.1309204, y: 11.3574705, z: 39.115845}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
