@@ -50,7 +50,7 @@ public class PlayColors : MonoBehaviour
 
     void Update()
     {
-        if(indiceDeMovimineto == 5){
+        if(indiceDeMovimineto == 4){
             cinematicManager.PlayCinematic(7);
         } else if(perdidas == 2){
             cinematicManager.PlayCinematic(6);
@@ -135,9 +135,11 @@ public class PlayColors : MonoBehaviour
         if (personaje.CompareTag("Player"))
         {
             turnoGastadoPlayer = true;
+            finalizoAniPlayer = false;
         }
         else
         {
+            finalizoAniPerro = false;
             turnoGastadoPerro = true;
         }
         StartCoroutine(MoverPersonajeSuave(personaje, plataformaDestino, indicePlataforma, movimientos));
@@ -201,6 +203,7 @@ public class PlayColors : MonoBehaviour
 
     IEnumerator VerificarSecuencia()
     {
+        jugadorActivo= false;
         bool secuenciaPerroCorrecta = true;
         bool secuenciaPlayerCorrecta = true;
 
@@ -232,6 +235,7 @@ public class PlayColors : MonoBehaviour
                 yield return RegresarAlCentroSuave(player);
                 GenerarNuevaSecuencia();
             }
+            jugadorActivo= true;
         }
         else
         {
